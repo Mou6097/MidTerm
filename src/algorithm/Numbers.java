@@ -7,7 +7,7 @@ import java.util.Random;
 
 public class gNumbers {
 
-	/* show all the different kind of sort throw sorting like applyingg
+	/* show all the different kind of sort throw sorting like applyingg intog
 	 * Show all the different kind of sorting algorithm by applying into (num array).
 	 * Display the execution time for each sorting.Example in below.
 	 *
