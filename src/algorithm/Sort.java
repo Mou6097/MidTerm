@@ -2,22 +2,37 @@ package algorithm;
 
 public class Sort {
 
-    long executionTime = 0;
-	/*
-	 * Please implement all the sorting algorithm. Feel free to add helper methods.
-	 * Store all the sorted data into one of the databases.
-	 */
+    package algorithm;
+
+    public class Sort {
+
+        long executionTime = 0;
+        /*
+         * Please implement all the sorting algorithm. Feel free to add helper methods.
+         * Store all the sorted data into one of the databases.
+         */
 
 
-    public int[] selectionSort(int [] array){
-        final long startTime = System.currentTimeMillis();
-        int [] list = array;
+        public int[] selectionSort(int [] array){
+            final long startTime = System.currentTimeMillis();
+            int [] list = array;
+            @@ -34,7 +27,16 @@
+            public int[] insertionSort(int [] array){
+                final long startTime = System.currentTimeMillis();
+                int [] list = array;
+                //implement here
 
-        for(int j=0; j<array.length-1; j++){
-            int min = j;
-            for(int i=j+1; i<array.length; i++) {
-                if (array[i] < array[min])
-                    min = i;
+                for(int j=1;j<array.length-1;j++){
+                    int curr= j;ray[min])
+                    int j=i;
+                    while(j>0 && curr<a[j-1]){
+                        a[j]=a[j-1];
+                        j--;
+                    }
+                    a[j]=curr;
+                }
+
+                min = i;
             }
 
             int temp = array[min];

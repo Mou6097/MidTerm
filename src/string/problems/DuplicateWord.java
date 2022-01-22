@@ -1,15 +1,24 @@
 package string.problems;
-
-public class DuplicateWord {
-
+import java.util.Scanner;
+public class Palindrome {
     public static void main(String[] args) {
-        /*
-         * Write a java program to find the duplicate words and their number of occurrences in the string.
-         * Also Find the average length of the words.
-         */
-
-        String st = "Java is a programming Language. Java is also an Island of Indonesia. Java is widely used language";
-
+        String str1, str2="";
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the String to check whether it is palindrome or not: ");
+        str1= sc.nextLine();
+        int i, n= str1.length();
+        for(i=n-1; i>=0; i--)
+        {
+            str2= str2+ str1.charAt(i);
+        }
+        if(str1.equalsIgnoreCase(str2))
+        {
+            System.out.println("The String is palindrome");
+        }
+        else
+        {
+            System.out.println("The String is not palindrome");
+        }
     }
-
 }
+
