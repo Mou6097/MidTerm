@@ -5,7 +5,7 @@ import databases.ConnectToSqlDB;
 import java.util.List;
 import java.util.Random;
 
-public class gNumbers {
+public class Numbers {
 
 	/* show all the different kind of sort throw sorting like applyingg intog
 	 * Show all the different kind of sorting algorithm by applying into (num array).
