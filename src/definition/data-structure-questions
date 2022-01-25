@@ -1,34 +1,107 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
-
+Data Structures are required to store data in an efficient manner
 
 What are the various operations that can be performed on different Data Structures?
+Creation: Creating a data structure according to the requirement
+Insertion: Inserting values into data structure
+Traversal: Visiting each element of the data structure at least once
+Search: Searching of an element in the given number of elements
+
 List out the areas in which data structures are applied extensively?
+Compiler Design.
+Operating System.
+DBMS.
+Graphics.
+Simulation.
+Numerical Analysis.
+
 what is an Array?
+Array is a data structure that contains a group of elements.
+
 what is the difference between the Array and ArrayList?
+An array is a fixed-length data structure.
+ArrayList is a variable-length data structure.
+
 what is LinkedList?
+A linked list is a linear collection of data elements whose order is not given by their physical placement in memory.
+
 How is an Array different from Linked List?
+An array is a collection of elements of a similar data type.
+A linked list is a collection of objects known as a node where node consists of two parts
+
 what is queue?
+A Queue is a linear structure which follows a particular order in which the operations are performed.
+
 what is stack?
+A stack is a conceptual structure consisting of a
+set of homogeneous elements and is based on the principle of last in first out (LIFO)
+
 what is FIFO and LIFO?
+FIFO: First in first out
+LIFO: Last in first out
+
 what is the order of complexity?
+an algorithm has an asymptotic computational complexity. Assuming the input is of size N,
+we can say that the algorithm will finish at O(N), O(N^2), O(N^3), O(N*log(N)) etc.
+
 what is the best case to search an element from an array?
+The best case of the unsorted array is O(n) while the worst case is also O(n).
+
 what is the worst case to search an element from an array?
+The worst-case performance is when the search item appears at the end of the list or not at all.
+
 what is tree in data structure?
+A tree is a hierarchical data structure defined as a collection of nodes
+
 what is graph in data structure?
+A Graph is a non-linear data structure consisting of nodes and edges
+
 what is the difference between the HashTable and HashMap?
+Hashtable is synchronized.
+HashMap is non-synchronized.
+
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+RDBMS: Array
+Network data model: Graph
+Hierarchical data model: Trees
+
 How HashMap works in java?
+HashMap uses a hashCode of the key Object and this hashCode is further used by
+the hash function to find the index of the bucket where the new entry can be added.
+
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+An ArrayIndexOutOfBoundsException is caused by trying to retrive a "box" that does not exist,
+by passing an index that is higher than the index of last "box", or negative.
+
 What are the different ways of copying an array into another array?
+Manually.
+Arrays.copyOf()
+System.arraycopy()
+Object.clone()
 What is difference between an array and a linked list?
+An array is a collection of elements of a similar data type.
+A linked list is a collection of objects known as a node where node consists of two parts.
+
 What is DFS and BFS?
+BFS stands for Breadth First Search.
+DFS stands for Depth First Search.
+
 What is Recursion?
+Recursion is a widely used phenomenon
+in computer science used to solve complex problems by breaking them down into simpler ones.
+
 What are linear and non linear data Structures?
+n a linear data structure, data elements are arranged in a linear order where each and every elements are attached to its previous and next adjacent.
+In a non-linear data structure, data elements are attached in hierarchically manner.
+
 What is Big-(O)-notation?
+Big O notation is a mathematical notation that describes the limiting
+behavior of a function when the argument tends towards a particular value.
+
 Outlined different kind of sorting algorithm with time complexity?
+Space Complexity, Time Complexity, O(1), O(log n), O(n), O(n2)
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.
